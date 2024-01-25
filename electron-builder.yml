@@ -1,0 +1,7 @@
+appId: "your-app-id"  # Replace with a unique identifier for your app
+productName: "Your App Name"  # Replace with your app's name
+asar: true  # Compresses files into a single archive
+files:  # Specifies files to include in the package
+  - "**/*"
+  - "!**/*.ts"  # Exclude TypeScript source files (if applicable)
+  - "!electron-builder.yml"  # Exclude the configuration file itself
